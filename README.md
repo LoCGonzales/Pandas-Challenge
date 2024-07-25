@@ -127,9 +127,13 @@ size_bins = [0, 1000, 2000, 5000]
 labels = ["Small (<1000)", "Medium (1000-2000)", "Large (2000-5000)"]
 Use pd.cut on the "Total Students" column of the per_school_summary DataFrame.
 
-Create a DataFrame called size_summary that breaks down school performance based on school size (small, medium, or large).
-
 ## Scores by School Type
 Use the per_school_summary DataFrame from the previous step to create a new DataFrame called type_summary.
 
 This new DataFrame should show school performance based on the "School Type".
+
+## Issues
+The main issues that I ran into took place when trying to run the code provuded for "# Calculate averages for the desired columns." for both "Score by School Pending" and "Score by School Size." I did eventaully get it to run after speaking with classmates and working through trial and error. Additionlly, I did have issues when attempting to run the charts for both of these to match the example provided. I did get there as best as I could but was unable to find where I was running into this issue exactly.
+
+## Resources
+Speaking with/working with classmates, referring to the websites: [w3schools](https://www.w3schools.com/python/) and [Stack Overflow](https://stackoverflow.com/) for further guidance.
